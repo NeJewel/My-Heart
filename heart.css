@@ -15,16 +15,20 @@
     width: 50px;
     height: 50px;
     font-size: 90px;
-    background: rgb(191, 10, 10);
+    background: rgb(183, 0, 0);
     transform: rotate(-45deg);
     position: absolute;
     animation: beat 0.9s infinite;
+    box-shadow: 
+        0 0 60px 30px #ff4e4e,
+        0 0 100px 60px rgb(247, 94, 94),
+        0 0 140px 90px rgb(255, 5, 5);
 }
 .heart::before{
     content: "";
     width: 50px;
     height: 50px;
-    background: rgb(191, 10, 10);
+    background: rgb(183, 0, 0);
     position: absolute;
     top: -30px;
     border-radius: 50%;
@@ -33,7 +37,7 @@
     content: "";
     width: 50px;
     height: 50px;
-    background: rgb(191, 10, 10);
+    background: rgb(183, 0, 0);
     position: absolute;
     right: -30px;
     border-radius: 50%;
